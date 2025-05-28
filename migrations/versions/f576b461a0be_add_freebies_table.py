@@ -1,8 +1,8 @@
-"""create companies, devs
+"""Add freebies table
 
-Revision ID: 5f72c58bf48c
-Revises: 7a71dbf71c64
-Create Date: 2023-03-15 15:06:20.944586
+Revision ID: f576b461a0be
+Revises: 
+Create Date: 2025-05-28 11:17:56.423307
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '5f72c58bf48c'
-down_revision = '7a71dbf71c64'
+revision = 'f576b461a0be'
+down_revision = None
 branch_labels = None
 depends_on = None
 
